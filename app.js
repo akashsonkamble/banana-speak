@@ -2,7 +2,6 @@ var txtInput = document.querySelector('.btn-primary');
 var btnTranslate = document.querySelector('#btn-translate');
 var outputDiv = document.querySelector('.output');
 
-// var serverURL = "https://lessonfourapitanaypratap.repl.co/translate/yoda.json"
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(text) {
@@ -28,13 +27,3 @@ function  clickHandler(){
 
 
 btnTranslate.addEventListener("click", clickHandler);
-
-
-
-
-
-
-// var classTextArea = document.querySelector(".btn-primary");
-// var idTextArea = document.querySelector("#input-btn");
-// var elementTextArea = document.querySelector("textarea");
-// var attributTextArea = document.querySelector(['[name="translator"]']) //for attribute
